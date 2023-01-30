@@ -57,10 +57,10 @@ This goal runs the application in place. Further doucmentation can be sourced [o
 Try visiting these endpoints:
 
 `http://localhost:8080/api/newEntry` - Adds new entry using the HTTP GET method.
+Notice the aformentioned endpoint fails. **Use Postman to submit test data**
 
 `http://localhost:8080/api/timeSheetEntry` - Displays all entries in [Data.csv](https://github.com/AndrewAlleyne/GiantMachineCodingExercise_TimeSheetEntry/blob/master/src/main/resources/file.csv)
 
-Notice the aformentioned endpoint fails. **Use Postman to submit test data**
 
 ## Data Used
 
