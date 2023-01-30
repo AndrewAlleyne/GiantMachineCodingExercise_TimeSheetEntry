@@ -10,8 +10,35 @@ import jakarta.persistence.*;
 public class TimeSheet {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+
     @Column(name = "id")
     Long id;
+
+    String Date;
+    String Client;
+    String Project; //This refers to the Project column in the CSV
+    String Code;
+    Double Hours;
+    String Billable;
+    String firstName;
+    String lastName;
+    Integer BillableRate;
+
+    public TimeSheet() {
+    }
+
+    public TimeSheet(String date, String client, String project, String code, Double hours, String billable, String firstName, String lastName, Integer billableRate) {
+        Date = date;
+        Client = client;
+        Project = project;
+        Code = code;
+        Hours = hours;
+        Billable = billable;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        BillableRate = billableRate;
+    }
+
 
     public String getDate() {
         return Date;
@@ -45,11 +72,11 @@ public class TimeSheet {
         Code = code;
     }
 
-    public Float getHours() {
+    public Double getHours() {
         return Hours;
     }
 
-    public void setHours(Float hours) {
+    public void setHours(Double hours) {
         Hours = hours;
     }
 
@@ -84,43 +111,4 @@ public class TimeSheet {
     public void setBillableRate(Integer billableRate) {
         BillableRate = billableRate;
     }
-
-    String Date;
-    String Client;
-    String Project; //This refers to the Project column in the CSV
-    String Code;
-    Float Hours;
-    String Billable;
-    String firstName;
-    String lastName;
-    Integer BillableRate;
-
-
-
-/*/*CREATE TABLE TIMESHEET
-(
-    ID            INT PRIMARY KEY auto_increment NOT NULL,
-    DATE          VARCHAR(255),
-    CLIENT        VARCHAR(255),
-    PROJECT       VARCHAR(255),
-    CODE          VARCHAR(20),
-    HOURS         FLOAT,
-    BILLABLE      VARCHAR(255),
-    FIRST_NAME    VARCHAR(255),
-    LAST_NAME     VARCHAR(255),
-    BILLABLE_RATE INT4
-);*/
-
-
-    public TimeSheet() {
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
 }
