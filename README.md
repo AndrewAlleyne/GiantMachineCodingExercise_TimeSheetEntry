@@ -9,16 +9,21 @@ Minimal SpringBoot application supplying endpoints to retrieve all Time Sheets a
 
 For building and running the application you need:
 - [Java 17](https://openjdk.org/projects/jdk/17/#:~:text=JDK%2017%20is%20the%20open-source%20reference%20implementation%20of,Oracle%3B%20binaries%20from%20other%20vendors%20will%20follow%20shortly.)
-- [Maven 4 Download](1https://maven.apache.org/download.cgi)
+- [Maven 4 Download](https://maven.apache.org/download.cgi)
 - [Maven 4 Installation Guide](https://maven.apache.org/install.html)
 
 ### Tools
 IntelliJ Idea 2022.2
 
 ## Getting Started
-Once you've install Maven, t : 
-
-
+There are many ways you can run this program. 
+1. Clone repo using your prefered IDE.
+2. Clone Repo using your Terminal. (Quickest granted you have installed the prerequistes) 
+  `git clone https://github.com/AndrewAlleyne/GiantMachineCodingExercise_TimeSheetEntry.git
+   cd GiantMachineCodingExercise_TimeSheetEntry
+   `
+   In your terminal run the maven build command
+   `mvn spring-boot:run` - This goal runs the application in place. Further doucmentation can be sourced here [Spring Boot Maven Plugin] (https://docs.spring.io/spring-boot/docs/3.1.x-SNAPSHOT/maven-plugin/reference/pdf/spring-boot-maven-plugin-reference.pdf)
 
 
 
