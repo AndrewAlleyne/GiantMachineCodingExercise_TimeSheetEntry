@@ -8,7 +8,7 @@ Minimal SpringBoot application supplying endpoints to retrieve all Time Sheets a
 ## Requirements
 For building and running the application you need:
 
-- [Java 17]([http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html](https://openjdk.org/projects/jdk/17/#:~:text=JDK%2017%20is%20the%20open-source%20reference%20implementation%20of,Oracle%3B%20binaries%20from%20other%20vendors%20will%20follow%20shortly.))
+- [Java 17](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html](https://openjdk.org/projects/jdk/17/#:~:text=JDK%2017%20is%20the%20open-source%20reference%20implementation%20of,Oracle%3B%20binaries%20from%20other%20vendors%20will%20follow%20shortly.)
 - [Maven 4](https://maven.apache.org)
 
 ## Running thea application locally
