@@ -6,11 +6,14 @@ Minimal SpringBoot application supplying endpoints to retrieve all Time Sheets a
 
 
 ## Requirements
-For building and running the application you need:
 
+For building and running the application you need:
 - [Java 17](https://openjdk.org/projects/jdk/17/#:~:text=JDK%2017%20is%20the%20open-source%20reference%20implementation%20of,Oracle%3B%20binaries%20from%20other%20vendors%20will%20follow%20shortly.)
+- [Maven 4 Download](1https://maven.apache.org/download.cgi)
 - [Maven 4 Installation Guide](https://maven.apache.org/install.html)
-- [Maven 4](https://maven.apache.org/install.html)
+
+### Tools
+IntelliJ Idea 2022.2
 
 ## Getting Started
 Once you've install Maven, t : 
