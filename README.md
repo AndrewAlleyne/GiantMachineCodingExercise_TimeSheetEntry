@@ -1,7 +1,6 @@
 # GiantMachineCodingExercise_TimeSheetEntry
 
 Build Enviroment - Windows 
-[![Build Status](https://app.travis-ci.com/AndrewAlleyne/GiantMachineCodingExercise_TimeSheetEntry.svg?branch=master)](https://app.travis-ci.com/AndrewAlleyne/GiantMachineCodingExercise_TimeSheetEntry)
 
 Minimal SpringBoot application supplying endpoints to retrieve all Time Sheets and create a new Time Sheet.
 
